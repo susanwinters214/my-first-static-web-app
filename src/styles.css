@@ -6,7 +6,8 @@ html, body {
   margin: 0;
   border: 0;
   padding: 0;
-  background-color: #fff;
+  background-color: black;
+  color:white;
 }
 
 main {
@@ -19,3 +20,16 @@ main > h1 {
   text-align: center;
   font-size: 3.5em;
 }
+.center{
+  display: flex;
+  flex-direction:column;
+  flex-wrap: no-wrap;
+  justify-content: center;
+  align-items: center;
+}
+img{margin-top:50px;}
+
+a{margin-top:50px;}
+a:link{color:white;}
+a:hover{color:lightblue;}
+a:visited{color: oldlace}
